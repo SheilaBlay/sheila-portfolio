@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sheila Blay Sancho - Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Sheila Blay Sancho</h1>
+    <p>Estudiante de Desarrollo Web</p>
+  </header>
+
+  <nav>
+    <a href="#sobre-mi">Sobre mí</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <main>
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>
+        ¡Hola! Soy <strong>Sheila Blay Sancho</strong>, estudiante de Desarrollo de Aplicaciones Web.
+        Me apasiona la tecnología, la programación y el diseño de interfaces sencillas pero funcionales.
+        Disfruto aprendiendo nuevas herramientas y aplicando lo que aprendo en proyectos reales.
+        Mis objetivos son seguir mejorando mis habilidades técnicas, aprender frameworks modernos
+        y trabajar en equipo para crear soluciones útiles y creativas.
+      </p>
+      <p>
+        He trabajado con HTML, CSS, y JavaScript, y también tengo algunos conocimientos de redes y bases de datos.
+        Busco oportunidades para seguir creciendo profesionalmente y contribuir a proyectos abiertos en GitHub.
+      </p>
+    </section>
+
+    <section id="proyectos">
+      <h2>Proyectos</h2>
+
+      <div class="proyecto">
+        <h3>Portfolio personal</h3>
+        <p>Este sitio web, creado con HTML y CSS, muestra mi información personal, mis habilidades y mis proyectos.</p>
+        <ul>
+          <li>Tecnologías: HTML, CSS, GitHub Pages</li>
+        </ul>
+      </div>
+      <div class="proyecto">
+        <h3>Gestor de tareas</h3>
+        <p>Aplicación básica en JavaScript que permite añadir, marcar y eliminar tareas pendientes.</p>
+        <ul>
+          <li>Tecnologías: HTML, CSS, JavaScript</li>
+        </ul>
+      </div>
+      <div class="proyecto">
+        <h3>Simulación de red local</h3>
+        <p>Práctica de redes usando Linux y NFS. Configuración de recursos compartidos y permisos.</p>
+        <ul>
+          <li>Tecnologías: Linux, Bash, NFS</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript básico</li>
+        <li>Python</li>
+        <li>Git y GitHub</li>
+        <li>Trabajo en equipo</li>
+      </ul>
+    </section>
+    
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Email: <a href="mailto:sheblasan@alu.edu.gva.es">sheblasan@alu.edu.gva.es</a></p>
+      <p>GitHub: <a href="https://sheilablay.github.io/sheila-portfolio/" target="_blank">@SheilaBlay</a></p>
+    </section>
+  </main>
+  
+   <footer>
+    <p>&copy; <span id="year"></span> Sheila Blay Sancho - Portfolio</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
