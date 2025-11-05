@@ -1,2 +1,6 @@
 # sheila-portfolio
-Portfolio personal con mi información, proyectos y habilidades, creado con HTML, CSS y GitHub Pages para mostrar mi trabajo y aprendizaje en desarrollo web.
+Pequeña web personal creada para la asignatura. Contiene mi información personal, proyectos, habilidades y formas de contacto.
+
+Tecnologías que estoy aprendiendo: HTML, CSS, JavaScript, Git, Linux.
+
+🔗 sheila-portfolio: https://sheilablay.github.io/sheila-portfolio/
